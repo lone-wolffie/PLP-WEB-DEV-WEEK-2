@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Week 2</title>
+    </head>
+    
+    <body>
+        <h1>Enhanced HTML Elements</h1>
+        <h2>Definition list</h2>
+        <dl>
+            <dt>USA</dt>
+            <dd>United States of America.</dd>
+            <dt>UAE</dt>
+            <dd>United Arab Emirates.</dd>
+        </dl>
+
+        <h2>Nested Lists</h2>
+        <ol>
+            <li>Cars
+                <ol type="i">
+                    <li>Toyota
+                        <ol type="a">
+                            <li>Corolla</li>
+                            <li>Camry</li>
+                            <li>RAV4</li>
+                        </ol>
+                    </li>
+                    <li>Mazda</li>
+                    <li>Nissan</li>
+                </ol>
+            </li>
+            <li>Motobikes
+                <ul>
+                    <li>Honda</li>
+                    <li>Yamaha</li>
+                    <li>Kawasaki</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h2>Multimedia</h2>
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="Alessia Cara - Scars To Your Beautiful (Lyrics).webm" type="audio/webm">
+            Your browser does not support audio playback.
+        </audio>
+        
+        <h3>Video</h3>
+        <video controls width="640" height="360">
+            <source src="12086327_1080_1920_24fps.mp4" type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+
+        <h2>Tables</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jane Doe</td>
+                    <td>Female</td>
+                    <td>UAE</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>Male</td>
+                    <td>UK</td>
+            </tbody>
+        </table>
+
+        <h2>Forms</h2>
+        <form action="...location where your info is sent to.com" method="post"> <!--How info is getting to location-->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br> <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br> <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br> <br>
+            <label for="gender">Gender:</label>
+            <input type=radio id="Female" name="gender" value="Female"> Female
+            <input type="radio" id="Male" name="gender" value="Male"> Male
+            <br> <br>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="">--Select Country--</option>
+                <option value="kenya">Kenya</option>
+                <option value="uk">UK</option>
+                <option value="uae">UAE</option>
+            </select>
+            <br> <br>
+            <label for="comments">Comments:</label>
+            <br> <br>
+            <textarea id="comments" name="comments" rows="10" cols="50"></textarea>
+            <br> <br>
+            <input type="submit" value="Submit">
+        </form>
+        
+    
+    
+    
+    </body>
+</html>
